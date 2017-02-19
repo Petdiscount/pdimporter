@@ -32,11 +32,11 @@ Go to your favorite webbrowser and run https://yourmagentourl.com/pdimporter/ins
 
 Open your favorite SSH client and "cd" into the pdimporter directory. Run the following command to start the initial import. This takes about 5 to 10 minutes.
 ```
-php cron full
+php cron.php full
 ```
 
 ### Step 4:
 
 Setup a cronjob for the "stock" and "full" import.
 
-You need to run "php cron stock" every 30 minutes You need to run "php cron full" every day, ideally between 18:00 and 08:00.
+You need to run "php cron.php stock" every 30 minutes You need to run "php cron.php full" every day, ideally between 18:00 and 08:00.
