@@ -17,7 +17,10 @@ Or:
 Copy all the files into /pdimporter
 
 Or use:
+```
 git clone https://github.com/petdiscount/pdimporter
+```
+
 in your magento root
 
 
@@ -27,7 +30,10 @@ Go to your favorite webbrowser and run https://yourmagentourl.com/pdimporter/ins
 
 ### Step 3:
 
-Open your favorite SSH client and "cd" into the pdimporter directory. Run the following command "php cron full" to start the initial import. This takes about 5 to 10 minutes.
+Open your favorite SSH client and "cd" into the pdimporter directory. Run the following command to start the initial import. This takes about 5 to 10 minutes.
+```
+php cron full
+```
 
 ### Step 4:
 
