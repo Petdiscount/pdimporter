@@ -1,0 +1,17 @@
+{
+    "name": "petdiscount/magento",
+    "version": "1.0.0",
+    "description": "Magento Syncer for Petdiscount",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Ruthger Idema",
+            "email": "info@petdiscount.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "petdiscount/api-client": "dev-master"
+    }
+}

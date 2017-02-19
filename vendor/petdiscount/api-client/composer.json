@@ -1,0 +1,30 @@
+{
+  "name": "petdiscount/api-client",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "A PHP Client for the Petdiscount API",
+  "keywords": [
+    "petdiscount",
+    "api",
+    "php"
+  ],
+  "homepage": "http://github.com/petdiscount/petdiscount-php",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Ruthger Idema",
+      "email": "info@petdiscount.nl"
+    }
+  ],
+  
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Petdiscount\\Api\\": "src"
+    }
+  }
+}

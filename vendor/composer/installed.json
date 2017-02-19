@@ -1,0 +1,47 @@
+[
+    {
+        "name": "petdiscount/api-client",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Petdiscount/petdiscount-php.git",
+            "reference": "a8e5b4f491ae91190824a9fef28235cf2db4edee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Petdiscount/petdiscount-php/zipball/a8e5b4f491ae91190824a9fef28235cf2db4edee",
+            "reference": "a8e5b4f491ae91190824a9fef28235cf2db4edee",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-16T09:34:15+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Petdiscount\\Api\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ruthger Idema",
+                "email": "info@petdiscount.nl"
+            }
+        ],
+        "description": "A PHP Client for the Petdiscount API",
+        "homepage": "http://github.com/petdiscount/petdiscount-php",
+        "keywords": [
+            "api",
+            "petdiscount",
+            "php"
+        ]
+    }
+]

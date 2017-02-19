@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eefd9558c55eccc2cb7351b7a0faac41",
+    "packages": [
+        {
+            "name": "petdiscount/api-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Petdiscount/petdiscount-php.git",
+                "reference": "a8e5b4f491ae91190824a9fef28235cf2db4edee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Petdiscount/petdiscount-php/zipball/a8e5b4f491ae91190824a9fef28235cf2db4edee",
+                "reference": "a8e5b4f491ae91190824a9fef28235cf2db4edee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Petdiscount\\Api\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ruthger Idema",
+                    "email": "info@petdiscount.nl"
+                }
+            ],
+            "description": "A PHP Client for the Petdiscount API",
+            "homepage": "http://github.com/petdiscount/petdiscount-php",
+            "keywords": [
+                "api",
+                "petdiscount",
+                "php"
+            ],
+            "time": "2017-02-16 09:34:15"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "petdiscount/api-client": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
