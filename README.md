@@ -10,11 +10,11 @@ Installation is quite easy! Just follow the steps:
 
 ### Step 1:
 
-Create a new directory "pdimporter" directory to your Magento root.
-With SSH use: "mkdir pdimporter".
+Download the ZIP file and move the "pdimporter" folder in your Magento root.
 
-Copy the files into this directory or use:
-git clone https://github.com/petdiscount/magento1
+Or use:
+git clone https://github.com/petdiscount/pdimporter
+in your magento directory
 
 
 ### Step 2:
